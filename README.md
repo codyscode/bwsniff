@@ -2,7 +2,7 @@
 Bwsniff is a packet sniffing based network bandwidth monitor that runs on Linux.
 Most bandwidth monitors are either limited to the host they're running on or 
 require some administrative access to monitor the whole network. Bwsniff only
-requires you to be connected to the network.
+requires that packets be visible to your NIC.
 
 # Setup
 1. Install libpcap: sudo apt-get install libpcap-dev
